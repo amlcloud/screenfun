@@ -12,4 +12,4 @@ gcloud functions deploy user_semsearch__create \
   --entry-point user_semsearch__create \
   --runtime python37 \
   --trigger-event "providers/cloud.firestore/eventTypes/document.create" \
-  --trigger-resource "projects/user_semsearch__create/databases/(default)/documents/user/{uid}/semsearch/{searchId}"
+  --trigger-resource "projects/screener-9631e/databases/(default)/documents/user/{uid}/semsearch/{searchId}"
